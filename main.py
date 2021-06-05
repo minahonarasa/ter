@@ -47,7 +47,7 @@ def ask_usrchoice():
             sys.exit(0)
         if userinput.lower() not in all_usrchoice: #user enters wrong choice
             print("Your choice:", userinput, "is not an option, quitting the game")
-            sys.exit(0)
+            quit(0)
     return userinput.lower()
 
 def get_cpu_choice():
