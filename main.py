@@ -51,7 +51,7 @@ def ask_usrchoice():
     return userinput.lower()
 
 def get_cpu_choice():
-    """cpu will use random genrator to chose a random number"""
+    #get a random number from 1 to 3 with random generator
     cpu_random_choice = random.randint(1, 3)
     cpu_choice = cpu_all_choices[cpu_random_choice -1]
     return cpu_choice
