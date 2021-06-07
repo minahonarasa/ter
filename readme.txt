@@ -4,7 +4,7 @@
 make a Rock, Paper, Scissors game and play against the computer. The game returns the winner by these rules:
       Rock blunts scissors, and Paper covers rock,  Scissors cut paper
 
-# Requirements: Python 3.3 or more, Docker 
+## Requirements: Python 3.3 or more, Docker 
 
 ## Files in the package:
 	There are four files in this package:
