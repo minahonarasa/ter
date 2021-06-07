@@ -7,15 +7,16 @@ make a Rock, Paper, Scissors game and play against the computer. The game return
 ## Files in the package:
 	There are four files in this package:
 
-         “main.py”: This file includes all functions necessary to implement the game to collect the user input and compare it to the CPU random choice
-	 and print the correct information that who is the winner:
+         “main.py”: This file includes all functions necessary to implement the game to collect the user input 
+	 	  and compare it to the CPU random choice and print the correct information that who is the winner:
 		- ask_usrchoice – to get the input from the user.
 		- get_cpu_choice - to get a randomized input from CPU.
 		- print_winning_mesg – to print the winning messages.
 		- find_winner – to check who the user is.
 		- game_start – to start the game and call the above functions.
 
-	“test_passy.py”: This file imports pytest includes a different combination of input for the cases that the tests suppose to pass
+	“test_passy.py”: This file imports pytest includes a different combination of input for the cases 
+		that the tests suppose to pass
 		- when the user wins
 		- when the CPU wins
 		- when it is a tie
@@ -25,12 +26,14 @@ make a Rock, Paper, Scissors game and play against the computer. The game return
 		- When it is a tie game, check if invalid message is printed. 
 		- When “find_winnner“ returns incorrect status and the “print_winning_mesg”  prints an invalid message
 		- Even if the user input is invalid, the game prints the winning message.
-		- "to_do" part: I would like to develope a function for invalid charachter input for “print_winning_mesg” and catch the exceptions.
+		- "to_do" part: I would like to develope a function for invalid charachter input for “print_winning_mesg” 
+		   and catch the exceptions.
 
 	“test_patch.py”:  This file mocks user input by “unnitest.mock” :
 		- Check the input for the function “ask_userchoice”
 		- Check the if correct input is passed to “game_start”
-		- “to_do” part: I would like to develop a  test for invalid characters input to the above functions by catching exceptions.
+		- “to_do” part: I would like to develop a  test for invalid characters input to the above functions
+		    by catching exceptions.
 
 ## Development Style: TDD. Each functionality is written so that the function is fully testable against happy or sad input.
 
