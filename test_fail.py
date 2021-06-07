@@ -1,6 +1,6 @@
-#in this case are tests suppose to fail
+#Here are the tests suppose to fail
 #we check the failed cases, to make sure the software fails softly.
-#no python message should be pop-up
+#no python error message should be poped-up
 import pytest
 from main import *
 
