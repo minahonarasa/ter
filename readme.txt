@@ -28,8 +28,8 @@ make a Rock, Paper, Scissors game and play against the computer. The game return
 		- When it is a tie game, check if invalid message is printed. 
 		- When “find_winnner“ returns incorrect status and the “print_winning_mesg”  prints an invalid message
 		- Even if the user input is invalid, the game prints the winning message.
-		- "to_do" part: I would like to develope a function for invalid charachter input for “print_winning_mesg” 
-		   and catch the exceptions.
+		- "to_do" part: I would like to develope a function for invalid charachter input 
+		   for “print_winning_mesg” and catch the exceptions.
 
 	“test_patch.py”:  This file mocks user input by “unnitest.mock” :
 		- Check the input for the function “ask_userchoice”
@@ -54,7 +54,8 @@ make a Rock, Paper, Scissors game and play against the computer. The game return
 	- run this test to mock userinput for winning/tie/losing cases. 
 
 ## To_do: 
-	- Develop the game so to play multiple games:  In future, a while loop can be added to the function “game_start” and check if she/he wants to play again.
+	- Develop the game so to play multiple games:  In future, a while loop can be added to the function “game_start” 
+	  and check if she/he wants to play again.
 	- Add exceptions for non-valid string input and test them in the testing files.
 
 ## Docker file number 1: 
@@ -66,7 +67,8 @@ For running the tests, Please chekc my other github repository which has its own
 	- To build Docker file:  “docker build -t main”
 	- To run Docker image:  “docker run -it main”
 
-##Docker file number 2: I made a secondary directory/repository for this project. Please see the other readme.txt for the next Docker project.
+##Docker file number 2: I made a secondary directory/repository for this project. Please see the other readme.txt 
+  for the next Docker project.
 
 
 
