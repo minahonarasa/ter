@@ -66,7 +66,7 @@ For running the tests, Please chekc my other github repository which has its own
 	- To build Docker file:  “docker build -t main”
 	- To run Docker image:  “docker run -it main”
 
-#Docker file number 2: I made a secondary directory/repository for this project. Please see the other readme.txt for the next Docker project.
+##Docker file number 2: I made a secondary directory/repository for this project. Please see the other readme.txt for the next Docker project.
 
 
 
