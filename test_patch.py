@@ -39,7 +39,7 @@ class test_me(unittest.TestCase):
     #to_do finish this function. catch the exceptions.
     # @unittest.mock.patch('builtins.input', create= True)
     # def test_3(self, mock_input):
-    #     mock_input.side_effect = 'xyXY'
+    #     mock_input.side_effect = fail_cases1
     #     with self.assertRaises(Exception):
     #         result = ask_usrchoice()
 
