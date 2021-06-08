@@ -65,13 +65,13 @@ def print_winning_mesg(userinput, cpu_choice):
         #to_do
         """if not isinstance(userinput, str):
             raise ValueError("userinput must be a string")"""
-        return 1
+        return 1 #use the return flag to debug and test the function
     elif userinput== cpu_choice: #Tie user should not come here, just double checking
         return 1
     else:
         print("Yes, You won!")
         print('%s wins over %s' % (dictchoice[userinput], dictchoice[cpu_choice]))
-        return 0
+        return 0 #flag 0 means the function passed the test.
 
 def find_winner(userinput, cpu_choice):
     #print the message tie, win or lose
