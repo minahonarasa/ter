@@ -35,7 +35,7 @@ status = [0,1,2,3] # variable for debugging: didnot pick choice (quitting) =0 , 
 #This function get the player choice. If the choice is not acceptable, too bad, we quit.
 def ask_usrchoice():
     userinput = None
-    #just added this part in case we want to add a while loop for repeating the game
+    #we may want to add a while loop for repeating the game
     if userinput is None:
         try:
             userinput = input('Please select a choice, What do you choose?\nr for rock, p for paper, s for scissors:')
