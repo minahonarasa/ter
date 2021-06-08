@@ -1,5 +1,5 @@
 """
-game.py:    Play a game of rock, paper, scissors
+main.py:    Play a game of rock, paper, scissors
 
 Game Description: Rock, Paper, Scissors
 Human Plays Rock, Paper, Scissors game against the computer.
