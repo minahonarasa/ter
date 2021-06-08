@@ -39,7 +39,8 @@ make a Rock, Paper, Scissors game and play against the computer. The game return
 		- “to_do” part: I would like to develop a  test for invalid characters input 
 		   to the above functions by catching exceptions.
 
-## Development Style: TDD. Each functionality is written so that the function is fully testable against happy or sad input.
+## Development Style: TDD. Each functionality is written so that the function is fully testable 
+   against happy or sad input.
 
 ## How to play game: Open a development environment like Pycharm or VS. Open all four files in one directory. 
      --run main.py:
