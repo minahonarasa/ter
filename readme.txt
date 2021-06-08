@@ -59,7 +59,7 @@ make a Rock, Paper, Scissors game and play against the computer. The game return
 ## To_do: 
 	- Develop the game so to play multiple games:  In future, a while loop can be added to the function “game_start” 
 	  and check if she/he wants to play again.
-	- Add exceptions for non-valid string input and test them in the testing files.
+	- complete more exceptions for non-valid input.
 
 ## Docker file number 1: 
 This Dockerfile intended for running main.py and to play the game only. 
