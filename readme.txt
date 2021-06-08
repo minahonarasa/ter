@@ -59,7 +59,7 @@ make a Rock, Paper, Scissors game and play against the computer. The game return
 
 ## Docker file number 1: 
 This Dockerfile intended for running main.py and to play the game only. 
-For running the tests, a second Docker file is used and another github repository is created (see the related readme.txt).
+For running the tests, Please chekc my other github repository which has its own Dockerfile (see the related readme.txt).
 	
 	Commands to run play the game on Docker:
 	- “cd” to the folder that the main.py is located.	
