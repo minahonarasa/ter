@@ -58,7 +58,7 @@ make a Rock, Paper, Scissors game and play against the computer. The game return
 	- Add exceptions for non-valid string input and test them in the testing files.
 
 ## Docker file number 1: 
-Here the first Docker file is developed. Herer is the Dockerfile for running main.py and to play the game only. 
+This Dockerfile intended for running main.py and to play the game only. 
 For running the tests, a second Docker file is used and another github repository is created (see the related readme.txt).
 	
 	Commands to run play the game on Docker:
